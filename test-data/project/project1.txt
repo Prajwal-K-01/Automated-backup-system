@@ -1,0 +1,142 @@
+========================================
+PROJECT 1 - AUTOMATED BACKUP SYSTEM
+===================================
+
+Project Name:
+Automated Backup System
+
+Project ID:
+ABS-001
+
+Project Category:
+Linux System Administration and Automation
+
+Project Status:
+Completed
+
+---
+
+## PROJECT DESCRIPTION
+
+The Automated Backup System is a Bash-based
+Linux automation project designed to create,
+verify, restore, and manage backup archives.
+
+The system uses TAR and GZIP for compression,
+SHA-256 for data integrity verification, and
+Cron for scheduled backup operations.
+
+---
+
+## KEY COMPONENTS
+
+1. Backup Module
+
+   * Creates compressed backup archives.
+   * Generates unique timestamp-based filenames.
+   * Stores backups in the designated archive directory.
+
+2. Integrity Verification
+
+   * Generates SHA-256 checksums.
+   * Verifies backup integrity before restoration.
+
+3. Restore Module
+
+   * Extracts backup archives.
+   * Restores files to a specified directory.
+
+4. Cleanup Module
+
+   * Identifies expired backup files.
+   * Removes backups according to the retention policy.
+
+5. Logging Module
+
+   * Records backup and cleanup activities.
+   * Maintains operational information for troubleshooting.
+
+6. Automation Module
+
+   * Uses Cron to schedule recurring backup operations.
+
+---
+
+## TECHNOLOGIES
+
+Operating System : Red Hat Enterprise Linux
+Scripting        : Bash
+Compression      : TAR + GZIP
+Integrity        : SHA-256
+Automation       : Cron
+Version Control  : Git
+Repository       : GitHub
+
+---
+
+## BACKUP WORKFLOW
+
+Source Data
+|
+v
+Source Validation
+|
+v
+Disk Space Check
+|
+v
+TAR + GZIP Compression
+|
+v
+Backup Archive
+|
+v
+SHA-256 Checksum
+|
+v
+Backup Storage
+
+---
+
+## TEST OBJECTIVE
+
+This file is intentionally stored inside the
+test-data directory.
+
+It is used to verify that:
+
+* Project files are included in the backup.
+* TAR compression works correctly.
+* SHA-256 integrity verification succeeds.
+* Files can be restored successfully.
+* Original and restored data remain consistent.
+
+---
+
+## EXPECTED RESULT
+
+After a successful backup and restore operation,
+this file should be available in the restored
+project directory with its original contents
+unchanged.
+
+---
+
+## PROJECT LEARNING
+
+This project demonstrates practical skills in:
+
+* Linux file management
+* Bash scripting
+* Shell automation
+* File compression
+* Backup management
+* Data integrity verification
+* File restoration
+* Cron scheduling
+* Linux troubleshooting
+* Git and GitHub workflow
+
+========================================
+END OF PROJECT 1
+================
