@@ -1,0 +1,60 @@
+========================================
+AUTOMATED BACKUP SYSTEM
+TEST PROJECT DOCUMENT
+========================================
+
+Project Name:
+Automated Backup System
+
+Project Type:
+Linux System Administration / Bash Automation
+
+Description:
+This document is sample test data used to verify
+the backup, checksum verification, and restore
+functionality of the Automated Backup System.
+
+Project Objectives:
+1. Automate backup creation.
+2. Compress data using TAR and GZIP.
+3. Generate SHA-256 checksums.
+4. Verify backup file integrity.
+5. Restore data from backup archives.
+6. Remove backups according to retention policy.
+7. Automate backup operations using Cron.
+
+Technologies Used:
+- Red Hat Enterprise Linux
+- Bash Shell Scripting
+- TAR
+- GZIP
+- SHA-256
+- Cron
+- Linux File System
+
+Backup Source:
+test-data/
+
+Backup Destination:
+backups/archives/
+
+Restore Destination:
+restore-test/
+
+Security:
+SHA-256 checksum verification is used to ensure
+that backup archives have not been modified or
+corrupted.
+
+Testing:
+This file should be successfully included in the
+backup archive and restored to the target directory
+during restore testing.
+
+Expected Result:
+The restored copy of this document should contain
+the same content as the original project.txt file.
+
+========================================
+END OF TEST DOCUMENT
+========================================
